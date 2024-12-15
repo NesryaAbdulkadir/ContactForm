@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-image: url(assets/pattern.png);
+  background-size: cover;
+  background-color: rgb(18, 24, 46);
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.form {
+  width: 600px;
+  background-color: #ffffff4a;
+  backdrop-filter: blur(3px);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.437);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+}
+
+.form legend {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.form label {
+  font-size: 1.2rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  font-family: Arial;
+}
+.form textarea {
+  max-height: 200px;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-bottom: 5px solid rgb(18, 24, 46);
+}
+.form button {
+  background-color: rgb(255, 190, 37);
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  opacity: 0.9;
+}
