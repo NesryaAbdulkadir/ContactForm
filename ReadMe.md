@@ -10,4 +10,4 @@ A simple contact form with HTML, CSS.
 
 ## Author
 
-[Nesria](https://github.com/Nesria)
+[Nesrya](https://github.com/NesryaAbdulkadir)
